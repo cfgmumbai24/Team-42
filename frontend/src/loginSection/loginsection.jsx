@@ -29,7 +29,7 @@ const loginSection = () => {
                 <>
                     <Box onClick={handleClick} className='absolute right-[20px] flex gap-2'>
                         <img className='w-[40px] h-[40px] rounded-full' src="https://cdn.pixabay.com/photo/2016/04/15/18/05/computer-1331579_640.png" />
-                        <p className='relative top-[7px]'>DhruvSeth18</p>
+                        {localStorage.getItem("username") && <p className='relative top-[7px]'>{localStorage.getItem("username")}</p>}
                     </Box>
                     <Menu id="basic-menu" anchorEl={anchorEl} open={open} onClose={handleClose}
                         MenuListProps={{

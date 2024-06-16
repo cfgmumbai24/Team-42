@@ -44,8 +44,8 @@ const Register = () => {
                 <h2 className="text-2xl font-bold text-center text-[30px] mb-[40px]">Mentor Registration</h2>
                 <div className="flex justify-center">
                     <div className="w-[90%] sm:w-[50%]">
-                        <div className="mb-4 flex  gap-6">
-                            <label htmlFor="fullName" className="block text-sm font-medium text-gray-700 text-[20px] relative top-2">FullName*</label>
+                        <div className="mb-4">
+                            <label htmlFor="fullName" className="block text-sm font-medium text-gray-700 ">FullName*</label>
                             <input
                                 type="text"
                                 id="fullname"
@@ -55,8 +55,8 @@ const Register = () => {
                                 className="border border-gray-300 px-3 py-2 rounded-md w-full"
                             />
                         </div>
-                        <div className="mb-4 flex  gap-6">
-                            <label htmlFor="email" className="block text-sm font-medium text-gray-700 text-[20px] relative top-2">Email*</label>
+                        <div className="mb-4">
+                            <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email*</label>
                             <input
                                 type="email"
                                 id="email"
@@ -66,8 +66,8 @@ const Register = () => {
                                 className="border border-gray-300 px-3 py-2 rounded-md w-full"
                             />
                         </div>
-                        <div className="mb-4 flex  gap-6">
-                            <label htmlFor="password" className="block text-sm font-medium text-gray-700 text-[20px] relative top-2">Password*</label>
+                        <div className="mb-4">
+                            <label htmlFor="password" className="block text-sm font-medium text-gray-700">Password*</label>
                             <input
                                 type="password"
                                 id="password"
@@ -77,8 +77,8 @@ const Register = () => {
                                 className="border border-gray-300 px-3 py-2 rounded-md w-full"
                             />
                         </div>
-                        <div className="mb-4 flex  gap-6">
-                            <label htmlFor="pan" className="block text-sm font-medium text-gray-700 text-[20px] relative top-2">PAN*</label>
+                        <div className="mb-4">
+                            <label htmlFor="pan" className="block text-sm font-medium text-gray-700">PAN*</label>
                             <input
                                 type="text"
                                 id="PAN"
@@ -88,8 +88,8 @@ const Register = () => {
                                 className="border border-gray-300 px-3 py-2 rounded-md w-full"
                             />
                         </div>
-                        <div className="mb-4 flex  gap-6">
-                            <label htmlFor="state" className="block text-sm font-medium text-gray-700 text-[20px] relative top-2">State*</label>
+                        <div className="mb-4">
+                            <label htmlFor="state" className="block text-sm font-medium text-gray-700">State*</label>
                             <input
                                 type="text"
                                 id="state"
@@ -99,8 +99,8 @@ const Register = () => {
                                 className="border border-gray-300 px-3 py-2 rounded-md w-full"
                             />
                         </div>
-                        <div className="mb-4 flex  gap-6">
-                            <label htmlFor="city" className="block text-sm font-medium text-gray-700 text-[20px] relative top-2">City*</label>
+                        <div className="mb-4">
+                            <label htmlFor="city" className="block text-sm font-medium text-gray-700">City*</label>
                             <input
                                 type="text"
                                 id="city"
@@ -110,8 +110,8 @@ const Register = () => {
                                 className="border border-gray-300 px-3 py-2 rounded-md w-full"
                             />
                         </div>
-                        <div className="mb-4 flex  gap-6">
-                            <label htmlFor="street" className="block text-sm font-medium text-gray-700 text-[20px] relative top-2">Street*</label>
+                        <div className="mb-4">
+                            <label htmlFor="street" className="block text-sm font-medium text-gray-700">Street*</label>
                             <input
                                 type="text"
                                 id="street"
@@ -121,8 +121,8 @@ const Register = () => {
                                 className="border border-gray-300 px-3 py-2 rounded-md w-full"
                             />
                         </div>
-                        <div className="mb-4 flex  gap-6">
-                            <label htmlFor="zipcode" className="block text-sm font-medium text-gray-700 text-[20px] relative top-2">Zipcode*</label>
+                        <div className="mb-4">
+                            <label htmlFor="zipcode" className="block text-sm font-medium text-gray-700">Zipcode*</label>
                             <input
                                 type="number"
                                 id="zipcode"
@@ -132,12 +132,12 @@ const Register = () => {
                                 className="border border-gray-300 px-3 py-2 rounded-md w-full"
                             />
                         </div>
-                        <div className="mb-4 flex  gap-6">
-                            <label htmlFor="phone" className="block text-sm font-medium text-gray-700 text-[20px] relative top-2">Phone*</label>
+                        <div className="mb-4">
+                            <label htmlFor="phone" className="block text-sm font-medium text-gray-700">Phone*</label>
                             <input
                                 type="number"
                                 id="phone"
-                                name="phone"
+                                name="phone"    
                                 value={mentorData.address.phone}
                                 onChange={handleChange}
                                 className="border border-gray-300 px-3 py-2 rounded-md w-full"
